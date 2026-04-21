@@ -24,5 +24,5 @@ On April 19, 2026, Vercel reported a compromise stemming from Context.ai, a thir
 
 ## Resources 
 * [Vercel Official Bulletin](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident)
-* [Trend Micro Analysis: The Vercel Breach](https://www.trendmicro.com/en-us/research/26/d/vercel-breach-oauth-supply-chain.html)
+* [Trend Micro Analysis: The Vercel Breach](https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html)
 
