@@ -7,11 +7,11 @@ On April 19, 2026, Vercel reported a compromise stemming from Context.ai, a thir
 
 | Tactics | Technique ID | Description |
 | :--- | :--- | :--- |
-| **Initial Access** | [T1195.002](https://attack.mitre.org/techniques/T1195/002/) | **Supply Chain Compromise:** Compromise of third-party software/service (Context.ai). |
-| **Defense Evasion** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | **Use Alternate Authentication Material:** Application Access Token |
-| **Lateral Movement** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | **Use Alternate Authentication Material:** Application Access Token |
-| **Credential Access** | [T1552.001](https://attack.mitre.org/techniques/T1552/001/) | **Unsecured Credentials:** Credentials in Files |
-| **Collection** | [T1213.003](https://attack.mitre.org/techniques/T1213/003/) | **Data From Information Repositories:** Code Repositories |
+| **Initial Access** | [T1195.002](https://attack.mitre.org/techniques/T1195/002/) | The attacker compromised a Google OAuth application authorized by Vercel employees. |
+| **Defense Evasion** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | OAuth applications, once authorized, maintain persistent access tokens that survive rotations and do not requre the user's password. |
+| **Lateral Movement** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | Using the compromised OAuth application's access, the attacker pivoted to a Vercel employee's Google Workspace account, which provided email and internal document access. From the compromised Workspace account, the attacker pivoted into Vercel's internal systems. |
+| **Credential Access** | [T1552.001](https://attack.mitre.org/techniques/T1552/001/) | The attacker accessed Vercel's internal systems with sufficient privileges to enumerate customer project environment variables. |
+| **Collection** | [T1213.003](https://attack.mitre.org/techniques/T1213/003/) | Exposed environment variables commonly contain credentials for downstream services. A customer report described receiving an OpenAI leaked-key notification for an API key that, according to the report, only existed only in Vercel—suggesting that at least one exposed credential was detected in the wild prior to Vercel’s disclosure. |
 
 
 ## Research 
