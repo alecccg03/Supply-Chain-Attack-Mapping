@@ -16,4 +16,8 @@ On April 19, 2026, Vercel reported a compromise stemming from Context.ai, a thir
 
 ## Research 
 
-> "The incident originated with a compromise of Context.ai, a third-party AI tool used by a Vercel employee. The attacker used that access to take over the employee's > Vercel Google Workspace account, which enabled them to gain access to some Vercel environments and environment variables that were not marked as “sensitive.”
+> "The incident originated with a compromise of Context.ai, a third-party AI tool used by a Vercel employee. The attacker used that access to take over the employee's > Vercel Google Workspace account, which enabled them to gain access to some Vercel environments and environment variables that were not marked as 'sensitive.'"
+> - Vercel Security Bulletin, April 20, 2026
+
+> "A single public customer report by Andrey Zagoruiko (April 19, 2026) described receiving an OpenAI leaked-key notification on April 10 for an API key that, according to the report, only existed only in Vercel—suggesting that at least one exposed credential was detected in the wild prior to Vercel’s disclosure."
+> - Trend Micro, April 20, 2026
