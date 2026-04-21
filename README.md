@@ -12,3 +12,8 @@ On April 19, 2026, Vercel reported a compromise stemming from Context.ai, a thir
 | **Lateral Movement** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | **Use Alternate Authentication Material:** Application Access Token |
 | **Credential Access** | [T1552.001](https://attack.mitre.org/techniques/T1552/001/) | **Unsecured Credentials:** Credentials in Files |
 | **Collection** | [T1213.003](https://attack.mitre.org/techniques/T1213/003/) | **Data From Information Repositories:** Code Repositories |
+
+
+## Research 
+
+> "The incident originated with a compromise of Context.ai, a third-party AI tool used by a Vercel employee. The attacker used that access to take over the employee's > Vercel Google Workspace account, which enabled them to gain access to some Vercel environments and environment variables that were not marked as “sensitive.”
