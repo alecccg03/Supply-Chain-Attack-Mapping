@@ -10,5 +10,5 @@ On April 19, 2026, Vercel reported a compromise stemming from Context.ai, a thir
 | **Initial Access** | [T1195.002](https://attack.mitre.org/techniques/T1195/002/) | **Supply Chain Compromise:** Compromise of third-party software/service (Context.ai). |
 | **Defense Evasion** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | **Use Alternate Authentication Material:** Application Access Token |
 | **Lateral Movement** | [T1550.001](https://attack.mitre.org/techniques/T1550/001/) | **Use Alternate Authentication Material:** Application Access Token |
-| **Credential Access** | [T1552.001](https://attack.mitre.org/techniques/1552/001/) | **Unsecured Credentials:** Credentials in Files |
-| **Collection** | [T1213.003](https://attack.mitre.org/techniques/1213/003/) | **Data From Information Repositories:** Code Repositories |
+| **Credential Access** | [T1552.001](https://attack.mitre.org/techniques/T1552/001/) | **Unsecured Credentials:** Credentials in Files |
+| **Collection** | [T1213.003](https://attack.mitre.org/techniques/T1213/003/) | **Data From Information Repositories:** Code Repositories |
